@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Feb 14 10:53:22 2025
+# Process ID: 1029
+# Current directory: /home/dewsjoe/Desktop/projects_2022.1/projects_ldg
+# Command line: vivado
+# Log file: /home/dewsjoe/Desktop/projects_2022.1/projects_ldg/vivado.log
+# Journal file: /home/dewsjoe/Desktop/projects_2022.1/projects_ldg/vivado.jou
+# Running On: dewsjoe-HP-Z440-Workstation, OS: Linux, CPU Frequency: 1197.455 MHz, CPU Physical cores: 6, Host memory: 33557 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_1/project_1.xpr
+update_compile_order -fileset sources_1

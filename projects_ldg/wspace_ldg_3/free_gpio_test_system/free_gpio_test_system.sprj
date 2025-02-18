@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="free_gpio_test_system" platform="/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/wspace_ldg_3/vck190_platform_3/export/vck190_platform_3/vck190_platform_3.xpfm" platformUID="xilinx:vck190::0.0(custom)" sysConfig="vck190_platform_3" runtime="cpp" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.314831401">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="free_gpio_test" domainName="freertos_gpio_test_system" domainPrettyName="freertos_gpio_test_system" appBuildConfig="Debug"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.494601609">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="free_gpio_test" domainName="freertos_gpio_test_system" domainPrettyName="freertos_gpio_test_system" appBuildConfig="Release"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

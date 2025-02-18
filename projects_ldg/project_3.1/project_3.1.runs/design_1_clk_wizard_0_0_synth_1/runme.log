@@ -1,0 +1,384 @@
+
+*** Running vivado
+    with args -log design_1_clk_wizard_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_clk_wizard_0_0.tcl
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source design_1_clk_wizard_0_0.tcl -notrace
+Command: synth_design -top design_1_clk_wizard_0_0 -part xcvc1902-vsva2197-2MP-e-S -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcvc1902'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvc1902'
+INFO: [Common 17-1540] The version limit for your license is '2023.11' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
+INFO: [Device 21-403] Loading part xcvc1902-vsva2197-2MP-e-S
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3142911
+WARNING: [Synth 8-9501] generate block is allowed only inside loop and conditional generate in SystemVerilog mode [/media/dewsjoe/Data/Vitis_2022_1/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:4023]
+WARNING: [Synth 8-9887] parameter declaration becomes local in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:52]
+WARNING: [Synth 8-9887] parameter declaration becomes local in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:54]
+WARNING: [Synth 8-9887] parameter declaration becomes local in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:56]
+WARNING: [Synth 8-9887] parameter declaration becomes local in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:57]
+WARNING: [Synth 8-9887] parameter declaration becomes local in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:58]
+WARNING: [Synth 8-9887] parameter declaration becomes local in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:60]
+WARNING: [Synth 8-9887] parameter declaration becomes local in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:61]
+WARNING: [Synth 8-9887] parameter declaration becomes local in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:62]
+WARNING: [Synth 8-9887] parameter declaration becomes local in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:66]
+WARNING: [Synth 8-9887] parameter declaration becomes local in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:70]
+WARNING: [Synth 8-9887] parameter declaration becomes local in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:74]
+WARNING: [Synth 8-9887] parameter declaration becomes local in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:76]
+WARNING: [Synth 8-9887] parameter declaration becomes local in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:97]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2893.816 ; gain = 195.828 ; free physical = 6923 ; free virtual = 11548
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wizard_0_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/synth/design_1_clk_wizard_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wizard_0_0_clk_wiz_top' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:48]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wizard_0_0_clocking_structure' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_structure.v:47]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [/media/dewsjoe/Data/Vitis_2022_1/Vivado/2022.1/scripts/rt/data/unisim_comp.v:1082]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [/media/dewsjoe/Data/Vitis_2022_1/Vivado/2022.1/scripts/rt/data/unisim_comp.v:1082]
+INFO: [Synth 8-6157] synthesizing module 'MMCME5' [/media/dewsjoe/Data/Vitis_2022_1/Vivado/2022.1/scripts/rt/data/unisim_comp.v:64104]
+INFO: [Synth 8-6155] done synthesizing module 'MMCME5' (0#1) [/media/dewsjoe/Data/Vitis_2022_1/Vivado/2022.1/scripts/rt/data/unisim_comp.v:64104]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wizard_0_0_clocking_structure' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_structure.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wizard_0_0_clk_wiz_top' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wizard_0_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/synth/design_1_clk_wizard_0_0.v:53]
+WARNING: [Synth 8-3848] Net s_axi_awready in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:343]
+WARNING: [Synth 8-3848] Net s_axi_wready in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:344]
+WARNING: [Synth 8-3848] Net s_axi_bresp in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:345]
+WARNING: [Synth 8-3848] Net s_axi_bvalid in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:346]
+WARNING: [Synth 8-3848] Net s_axi_arready in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:347]
+WARNING: [Synth 8-3848] Net s_axi_rdata in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:348]
+WARNING: [Synth 8-3848] Net s_axi_rresp in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:349]
+WARNING: [Synth 8-3848] Net s_axi_rvalid in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:350]
+WARNING: [Synth 8-3848] Net clk_stop in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:379]
+WARNING: [Synth 8-3848] Net clk_glitch in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:380]
+WARNING: [Synth 8-3848] Net clk_oor in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:381]
+WARNING: [Synth 8-3848] Net interrupt in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:382]
+WARNING: [Synth 8-3848] Net locked in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:398]
+WARNING: [Synth 8-3848] Net locked_fb in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:399]
+WARNING: [Synth 8-3848] Net clkfb_out_p in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:404]
+WARNING: [Synth 8-3848] Net clkfb_out_n in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:405]
+WARNING: [Synth 8-7129] Port clkin1_deskew in module design_1_clk_wizard_0_0_clocking_structure is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clkin2_deskew in module design_1_clk_wizard_0_0_clocking_structure is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clkfb1_deskew in module design_1_clk_wizard_0_0_clocking_structure is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clkfb2_deskew in module design_1_clk_wizard_0_0_clocking_structure is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awready in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wready in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_bresp[1] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_bresp[0] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_bvalid in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arready in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[31] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[30] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[29] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[28] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[27] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[26] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[25] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[24] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[23] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[22] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[21] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[20] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[19] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[18] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[17] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[16] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[15] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[14] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[13] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[12] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[11] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[10] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[9] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[8] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[7] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[6] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[5] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[4] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[3] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[2] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[1] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[0] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rresp[1] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rresp[0] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rvalid in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_stop[3] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_stop[2] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_stop[1] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_stop[0] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_glitch[3] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_glitch[2] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_glitch[1] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_glitch[0] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_oor[3] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_oor[2] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_oor[1] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_oor[0] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port interrupt in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port locked in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port locked_fb in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clkfb_out_p in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clkfb_out_n in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aclk in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aresetn in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[10] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[9] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[8] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[7] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[6] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[5] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[4] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[3] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[2] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[1] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[0] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awvalid in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[31] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[30] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[29] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[28] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[27] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[26] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[25] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[24] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[23] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[22] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[21] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[20] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[19] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[18] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[17] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[16] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[15] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[14] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[13] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[12] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[11] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[10] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[9] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[8] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2959.723 ; gain = 261.734 ; free physical = 9786 ; free virtual = 14413
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2974.566 ; gain = 276.578 ; free physical = 9787 ; free virtual = 14414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2974.566 ; gain = 276.578 ; free physical = 9785 ; free virtual = 14411
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2988.504 ; gain = 0.000 ; free physical = 9800 ; free virtual = 14427
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Constraints 18-6359] No Clock Expansion Window constraints config file entry for device xcvc1902.  GCLK Deskew mode will be Off and cannot be enabled via GCLK_DESKEW override.
+INFO: [Constraints 18-5720] The default GCLK Deskew mode is Off.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_ooc.xdc] for cell 'inst'
+WARNING: [Vivado 12-2489] -period contains time 3.380290 which will be rounded to 3.380 to ensure it is an integer multiple of 1 picosecond [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_ooc.xdc:9]
+create_clock: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3118.465 ; gain = 12.906 ; free physical = 9818 ; free virtual = 14446
+Finished Parsing XDC File [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_board.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_board.xdc] for cell 'inst'
+Parsing XDC File [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0.xdc] for cell 'inst'
+Parsing XDC File [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.runs/design_1_clk_wizard_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.runs/design_1_clk_wizard_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3118.465 ; gain = 0.000 ; free physical = 9816 ; free virtual = 14444
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  BUFG => BUFGCE: 2 instances
+
+INFO: [Timing 38-2] Deriving generated clocks
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3118.465 ; gain = 0.000 ; free physical = 9816 ; free virtual = 14444
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 3118.465 ; gain = 420.477 ; free physical = 10170 ; free virtual = 14799
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcvc1902-vsva2197-2MP-e-S
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 3118.465 ; gain = 420.477 ; free physical = 10167 ; free virtual = 14796
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.runs/design_1_clk_wizard_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 3118.465 ; gain = 420.477 ; free physical = 10166 ; free virtual = 14795
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 3118.465 ; gain = 420.477 ; free physical = 10165 ; free virtual = 14795
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 3936 (col length:164)
+BRAMs: 1934 (col length: RAMB18 168 RAMB36 84)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 3118.465 ; gain = 420.477 ; free physical = 10200 ; free virtual = 14837
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:47 . Memory (MB): peak = 3833.660 ; gain = 1135.672 ; free physical = 12008 ; free virtual = 16632
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:47 . Memory (MB): peak = 3833.660 ; gain = 1135.672 ; free physical = 12008 ; free virtual = 16632
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5816] Retiming module `design_1_clk_wizard_0_0_clk_wiz_top`
+   Worst Slack before retiming is -214748368 and worst slack after retiming is -214748368
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `design_1_clk_wizard_0_0_clk_wiz_top' done
+
+
+INFO: [Synth 8-5816] Retiming module `design_1_clk_wizard_0_0`
+   Worst Slack before retiming is -214748368 and worst slack after retiming is -214748368
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `design_1_clk_wizard_0_0' done
+
+
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:00:47 . Memory (MB): peak = 3852.691 ; gain = 1154.703 ; free physical = 11993 ; free virtual = 16617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 3858.629 ; gain = 1160.641 ; free physical = 11992 ; free virtual = 16617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 3858.629 ; gain = 1160.641 ; free physical = 11992 ; free virtual = 16617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 3858.629 ; gain = 1160.641 ; free physical = 11992 ; free virtual = 16617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 3858.629 ; gain = 1160.641 ; free physical = 11992 ; free virtual = 16617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 3858.629 ; gain = 1160.641 ; free physical = 11992 ; free virtual = 16617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 3858.629 ; gain = 1160.641 ; free physical = 11992 ; free virtual = 16617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |MMCME5 |     1|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 3858.629 ; gain = 1160.641 ; free physical = 11992 ; free virtual = 16617
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 156 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 3858.629 ; gain = 1016.742 ; free physical = 11992 ; free virtual = 16618
+Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 3858.637 ; gain = 1160.641 ; free physical = 11992 ; free virtual = 16618
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3858.637 ; gain = 0.000 ; free physical = 11993 ; free virtual = 16619
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Constraints 18-6359] No Clock Expansion Window constraints config file entry for device xcvc1902.  GCLK Deskew mode will be Off and cannot be enabled via GCLK_DESKEW override.
+INFO: [Constraints 18-5720] The default GCLK Deskew mode is Off.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-326] The CLKFBOUT to CLKFBIN net for instance inst/clock_primitive_inst/MMCME5_inst with COMPENSATION=INTERNAL is optimized away to aid design routability
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3901.254 ; gain = 0.000 ; free physical = 12014 ; free virtual = 16640
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  BUFG => BUFGCE: 2 instances
+
+Synth Design complete, checksum: ec279eb
+INFO: [Common 17-83] Releasing license: Synthesis
+40 Infos, 132 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:01 . Memory (MB): peak = 3901.254 ; gain = 1211.270 ; free physical = 12065 ; free virtual = 16691
+INFO: [Common 17-1381] The checkpoint '/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.runs/design_1_clk_wizard_0_0_synth_1/design_1_clk_wizard_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_clk_wizard_0_0, cache-ID = ab393755fc275afe
+INFO: [Common 17-1381] The checkpoint '/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3/project_3.runs/design_1_clk_wizard_0_0_synth_1/design_1_clk_wizard_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_clk_wizard_0_0_utilization_synth.rpt -pb design_1_clk_wizard_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 12 18:31:27 2025...

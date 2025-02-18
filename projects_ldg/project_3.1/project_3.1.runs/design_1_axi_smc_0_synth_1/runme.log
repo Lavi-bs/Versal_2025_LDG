@@ -1,0 +1,1102 @@
+
+*** Running vivado
+    with args -log design_1_axi_smc_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_smc_0.tcl
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source design_1_axi_smc_0.tcl -notrace
+Command: synth_design -top design_1_axi_smc_0 -part xcvc1902-vsva2197-2MP-e-S -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcvc1902'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvc1902'
+INFO: [Common 17-1540] The version limit for your license is '2023.11' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
+INFO: [Device 21-403] Loading part xcvc1902-vsva2197-2MP-e-S
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3227679
+WARNING: [Synth 8-9501] generate block is allowed only inside loop and conditional generate in SystemVerilog mode [/media/dewsjoe/Data/Vitis_2022_1/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:4023]
+WARNING: [Synth 8-9501] generate block is allowed only inside loop and conditional generate in SystemVerilog mode [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:2831]
+WARNING: [Synth 8-9501] generate block is allowed only inside loop and conditional generate in SystemVerilog mode [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:2899]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2918.852 ; gain = 219.828 ; free physical = 7457 ; free virtual = 14014
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_smc_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/synth/design_1_axi_smc_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:9]
+INFO: [Synth 8-6157] synthesizing module 'clk_map_imp_5Y9LOC' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1629]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_one_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_0/synth/bd_afc3_one_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_one_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_0/synth/bd_afc3_one_0.v:53]
+INFO: [Synth 8-638] synthesizing module 'bd_afc3_psr_aclk_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/synth/bd_afc3_psr_aclk_0.vhd:74]
+	Parameter C_FAMILY bound to: versal - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1264' bound to instance 'U0' of component 'proc_sys_reset' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/synth/bd_afc3_psr_aclk_0.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1392]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1408]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1434]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1457]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1481]
+INFO: [Synth 8-638] synthesizing module 'lpf' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-3491] module 'SRL16' declared at '/media/dewsjoe/Data/Vitis_2022_1/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105982' bound to instance 'POR_SRL_I' of component 'SRL16' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:868]
+INFO: [Synth 8-6157] synthesizing module 'SRL16' [/media/dewsjoe/Data/Vitis_2022_1/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105982]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16' (0#1) [/media/dewsjoe/Data/Vitis_2022_1/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105982]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'bd_afc3_psr_aclk_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/synth/bd_afc3_psr_aclk_0.vhd:74]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'bd_afc3_psr_aclk_0' is unconnected for instance 'psr_aclk' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1676]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'bd_afc3_psr_aclk_0' is unconnected for instance 'psr_aclk' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1676]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'bd_afc3_psr_aclk_0' is unconnected for instance 'psr_aclk' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1676]
+WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'bd_afc3_psr_aclk_0' is unconnected for instance 'psr_aclk' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1676]
+WARNING: [Synth 8-7023] instance 'psr_aclk' of module 'bd_afc3_psr_aclk_0' has 10 connections declared, but only 6 given [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1676]
+INFO: [Synth 8-6155] done synthesizing module 'clk_map_imp_5Y9LOC' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1629]
+INFO: [Synth 8-6157] synthesizing module 'm00_exit_pipeline_imp_1TZX5BB' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1981]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00e_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_32/synth/bd_afc3_m00e_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_async_rst' [/media/dewsjoe/Data/Vitis_2022_1/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1174]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_async_rst' (0#1) [/media/dewsjoe/Data/Vitis_2022_1/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1174]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00e_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_32/synth/bd_afc3_m00e_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'm00_exit_pipeline_imp_1TZX5BB' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1981]
+INFO: [Synth 8-6157] synthesizing module 'm00_nodes_imp_1GOYQYZ' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2282]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00arn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_27/synth/bd_afc3_m00arn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00arn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_27/synth/bd_afc3_m00arn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00awn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_29/synth/bd_afc3_m00awn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00awn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_29/synth/bd_afc3_m00awn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00bn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_31/synth/bd_afc3_m00bn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00bn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_31/synth/bd_afc3_m00bn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00rn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_28/synth/bd_afc3_m00rn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00rn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_28/synth/bd_afc3_m00rn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00wn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_30/synth/bd_afc3_m00wn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00wn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_30/synth/bd_afc3_m00wn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'm00_nodes_imp_1GOYQYZ' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2282]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00s2a_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_26/synth/bd_afc3_m00s2a_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00s2a_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_26/synth/bd_afc3_m00s2a_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'm01_exit_pipeline_imp_1XMPFJB' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2578]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01e_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_39/synth/bd_afc3_m01e_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01e_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_39/synth/bd_afc3_m01e_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'm01_exit_pipeline_imp_1XMPFJB' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2578]
+INFO: [Synth 8-6157] synthesizing module 'm01_nodes_imp_94N5OD' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2879]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01arn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_34/synth/bd_afc3_m01arn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01arn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_34/synth/bd_afc3_m01arn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01awn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_36/synth/bd_afc3_m01awn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01awn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_36/synth/bd_afc3_m01awn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01bn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_38/synth/bd_afc3_m01bn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01bn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_38/synth/bd_afc3_m01bn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01rn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_35/synth/bd_afc3_m01rn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01rn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_35/synth/bd_afc3_m01rn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01wn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_37/synth/bd_afc3_m01wn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01wn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_37/synth/bd_afc3_m01wn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'm01_nodes_imp_94N5OD' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2879]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01s2a_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_33/synth/bd_afc3_m01s2a_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01s2a_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_33/synth/bd_afc3_m01s2a_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'm02_exit_pipeline_imp_1I9A8BR' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3175]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02e_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_46/synth/bd_afc3_m02e_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02e_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_46/synth/bd_afc3_m02e_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'm02_exit_pipeline_imp_1I9A8BR' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3175]
+INFO: [Synth 8-6157] synthesizing module 'm02_nodes_imp_PO9IG6' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3476]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02arn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_41/synth/bd_afc3_m02arn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02arn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_41/synth/bd_afc3_m02arn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02awn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_43/synth/bd_afc3_m02awn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02awn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_43/synth/bd_afc3_m02awn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02bn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_45/synth/bd_afc3_m02bn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02bn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_45/synth/bd_afc3_m02bn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02rn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_42/synth/bd_afc3_m02rn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02rn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_42/synth/bd_afc3_m02rn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02wn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_44/synth/bd_afc3_m02wn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02wn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_44/synth/bd_afc3_m02wn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'm02_nodes_imp_PO9IG6' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3476]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02s2a_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_40/synth/bd_afc3_m02s2a_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02s2a_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_40/synth/bd_afc3_m02s2a_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_s00a2s_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_20/synth/bd_afc3_s00a2s_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_s00a2s_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_20/synth/bd_afc3_s00a2s_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 's00_entry_pipeline_imp_USCCV8' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3772]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_s00mmu_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_17/synth/bd_afc3_s00mmu_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_s00mmu_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_17/synth/bd_afc3_s00mmu_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_s00sic_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_19/synth/bd_afc3_s00sic_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_s00sic_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_19/synth/bd_afc3_s00sic_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_s00tr_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_18/synth/bd_afc3_s00tr_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_s00tr_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_18/synth/bd_afc3_s00tr_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 's00_entry_pipeline_imp_USCCV8' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3772]
+INFO: [Synth 8-6157] synthesizing module 's00_nodes_imp_Y7M43I' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:4431]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_sarn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_21/synth/bd_afc3_sarn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_sarn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_21/synth/bd_afc3_sarn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_sawn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_23/synth/bd_afc3_sawn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_sawn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_23/synth/bd_afc3_sawn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_sbn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_25/synth/bd_afc3_sbn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_sbn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_25/synth/bd_afc3_sbn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_srn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_22/synth/bd_afc3_srn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_srn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_22/synth/bd_afc3_srn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_swn_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_24/synth/bd_afc3_swn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_swn_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_24/synth/bd_afc3_swn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 's00_nodes_imp_Y7M43I' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:4431]
+INFO: [Synth 8-6157] synthesizing module 'switchboards_imp_4N4PBE' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:4727]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_arinsw_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_2/synth/bd_afc3_arinsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_arinsw_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_2/synth/bd_afc3_arinsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_aroutsw_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_7/synth/bd_afc3_aroutsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_aroutsw_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_7/synth/bd_afc3_aroutsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_awinsw_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_4/synth/bd_afc3_awinsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_awinsw_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_4/synth/bd_afc3_awinsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_awoutsw_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_9/synth/bd_afc3_awoutsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_awoutsw_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_9/synth/bd_afc3_awoutsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_binsw_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_6/synth/bd_afc3_binsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_binsw_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_6/synth/bd_afc3_binsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_boutsw_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_11/synth/bd_afc3_boutsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_boutsw_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_11/synth/bd_afc3_boutsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'i_nodes_imp_1MZRIMQ' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1685]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_arni_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_12/synth/bd_afc3_arni_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_arni_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_12/synth/bd_afc3_arni_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_awni_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_14/synth/bd_afc3_awni_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_awni_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_14/synth/bd_afc3_awni_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_bni_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_16/synth/bd_afc3_bni_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_bni_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_16/synth/bd_afc3_bni_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_rni_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_13/synth/bd_afc3_rni_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_rni_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_13/synth/bd_afc3_rni_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_wni_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_15/synth/bd_afc3_wni_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_wni_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_15/synth/bd_afc3_wni_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'i_nodes_imp_1MZRIMQ' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1685]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_rinsw_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_3/synth/bd_afc3_rinsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_rinsw_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_3/synth/bd_afc3_rinsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_routsw_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_8/synth/bd_afc3_routsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_routsw_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_8/synth/bd_afc3_routsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_winsw_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_5/synth/bd_afc3_winsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_winsw_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_5/synth/bd_afc3_winsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_woutsw_0' [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_10/synth/bd_afc3_woutsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_woutsw_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_10/synth/bd_afc3_woutsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'switchboards_imp_4N4PBE' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:4727]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_smc_0' (0#1) [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/synth/design_1_axi_smc_0.v:53]
+WARNING: [Synth 8-3848] Net aresetn_out in module/entity clk_map_imp_5Y9LOC does not have driver. [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1653]
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[0] in module sc_util_v1_0_4_onehot_to_binary__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port connectivity[2] in module sc_switchboard_v1_0_6_top__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port connectivity[1] in module sc_switchboard_v1_0_6_top__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port connectivity[0] in module sc_switchboard_v1_0_6_top__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port connectivity[0] in module sc_switchboard_v1_0_6_top__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[0] in module sc_util_v1_0_4_onehot_to_binary__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port connectivity[2] in module sc_switchboard_v1_0_6_top__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port connectivity[1] in module sc_switchboard_v1_0_6_top__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port connectivity[0] in module sc_switchboard_v1_0_6_top__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port connectivity[0] in module sc_switchboard_v1_0_6_top__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[0] in module sc_util_v1_0_4_onehot_to_binary is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slow_clk in module sc_util_v1_0_4_sample_cycle_ratio is either unconnected or has no load
+WARNING: [Synth 8-7129] Port fast_clk in module sc_util_v1_0_4_sample_cycle_ratio is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized11 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized11 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized11 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_node_v1_0_14_reg_slice3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_node_v1_0_14_reg_slice3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_node_v1_0_14_reg_slice3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_sc_req[0] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_sc_info[0] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tvalid in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[15] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[14] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[13] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[12] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[11] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[10] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[9] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[8] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[7] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[6] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[5] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[4] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[3] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[2] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[1] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[0] in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_arb_tready in module sc_node_v1_0_14_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_axic_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_axic_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_axic_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_sc_aclken in module sc_node_v1_0_14_top__parameterized13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[0] in module sc_util_v1_0_4_onehot_to_binary__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized10 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized10 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized10 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_node_v1_0_14_reg_slice3__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_node_v1_0_14_reg_slice3__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_node_v1_0_14_reg_slice3__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_node_v1_0_14_fi_regulator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_sc_info[2] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_sc_info[1] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_sc_info[0] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tvalid in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[15] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[14] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[13] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[12] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[11] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[10] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[9] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[8] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[7] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[6] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[5] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[4] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[3] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[2] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[1] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[0] in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_arb_tready in module sc_node_v1_0_14_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_sc_aclken in module sc_node_v1_0_14_top__parameterized12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_sc_info[2] in module sc_node_v1_0_14_si_handler__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_sc_info[1] in module sc_node_v1_0_14_si_handler__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_sc_info[0] in module sc_node_v1_0_14_si_handler__parameterized6 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 3108.633 ; gain = 409.609 ; free physical = 7413 ; free virtual = 13976
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 3126.445 ; gain = 427.422 ; free physical = 7413 ; free virtual = 13976
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 3126.445 ; gain = 427.422 ; free physical = 7413 ; free virtual = 13976
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.92 ; elapsed = 00:00:00.93 . Memory (MB): peak = 3132.383 ; gain = 0.000 ; free physical = 7414 ; free virtual = 13977
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Constraints 18-6359] No Clock Expansion Window constraints config file entry for device xcvc1902.  GCLK Deskew mode will be Off and cannot be enabled via GCLK_DESKEW override.
+INFO: [Constraints 18-5720] The default GCLK Deskew mode is Off.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/ooc.xdc] for cell 'inst'
+create_clock: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3572.906 ; gain = 64.016 ; free physical = 7427 ; free virtual = 14000
+Finished Parsing XDC File [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0_board.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0_board.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.runs/design_1_axi_smc_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.runs/design_1_axi_smc_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-1714] 56 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3572.906 ; gain = 0.000 ; free physical = 7426 ; free virtual = 13998
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 13 instances were transformed.
+  FDR => FDRE: 12 instances
+  SRL16 => SRL16E: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.36 ; elapsed = 00:00:00.19 . Memory (MB): peak = 3575.875 ; gain = 2.969 ; free physical = 7424 ; free virtual = 13996
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 3575.875 ; gain = 876.852 ; free physical = 7761 ; free virtual = 14334
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcvc1902-vsva2197-2MP-e-S
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 3575.875 ; gain = 876.852 ; free physical = 7761 ; free virtual = 14334
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.runs/design_1_axi_smc_0_synth_1/dont_touch.xdc, line 237).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m00_nodes/m00_ar_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m00_nodes/m00_aw_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m00_nodes/m00_b_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m00_nodes/m00_r_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m00_nodes/m00_w_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m01_nodes/m01_ar_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m01_nodes/m01_aw_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m01_nodes/m01_b_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m01_nodes/m01_r_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m01_nodes/m01_w_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m02_nodes/m02_ar_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m02_nodes/m02_aw_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m02_nodes/m02_b_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m02_nodes/m02_r_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m02_nodes/m02_w_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_ar_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_aw_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_b_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_r_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_w_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/switchboards/i_nodes/i_ar_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/switchboards/i_nodes/i_aw_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/switchboards/i_nodes/i_b_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/switchboards/i_nodes/i_r_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/switchboards/i_nodes/i_w_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m00_nodes/m00_ar_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m00_nodes/m00_aw_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m00_nodes/m00_b_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m00_nodes/m00_r_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m00_nodes/m00_w_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m01_nodes/m01_ar_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m01_nodes/m01_aw_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m01_nodes/m01_b_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m01_nodes/m01_r_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m01_nodes/m01_w_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m02_nodes/m02_ar_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m02_nodes/m02_aw_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m02_nodes/m02_b_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m02_nodes/m02_r_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m02_nodes/m02_w_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_ar_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_aw_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_b_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_r_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_w_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/switchboards/i_nodes/i_ar_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/switchboards/i_nodes/i_aw_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/switchboards/i_nodes/i_b_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/switchboards/i_nodes/i_r_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/switchboards/i_nodes/i_w_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m00_exit_pipeline/m00_exit/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m01_exit_pipeline/m01_exit/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m02_exit_pipeline/m02_exit/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_entry_pipeline/s00_mmu/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_entry_pipeline/s00_si_converter/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_entry_pipeline/s00_transaction_regulator/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 3575.875 ; gain = 876.852 ; free physical = 7758 ; free virtual = 14330
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'gen_axi.gen_write.write_cs_reg' in module 'sc_mmu_v1_0_10_decerr_slave'
+INFO: [Synth 8-802] inferred FSM for state register 'w_state_reg' in module 'sc_si_converter_v1_0_10_axilite_conv'
+INFO: [Synth 8-802] inferred FSM for state register 'r_state_reg' in module 'sc_si_converter_v1_0_10_axilite_conv'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            P_WRITE_IDLE |                              001 |                               00
+            P_WRITE_DATA |                              010 |                               01
+            P_WRITE_RESP |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_axi.gen_write.write_cs_reg' using encoding 'one-hot' in module 'sc_mmu_v1_0_10_decerr_slave'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  W_IDLE |                              000 | 00000000000000000000000000000000
+                    W_RX |                              001 | 00000000000000000000000000000001
+                    W_TX |                              010 | 00000000000000000000000000000010
+              W_COMPLETE |                              011 | 00000000000000000000000000000100
+               W_RECOVER |                              100 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'w_state_reg' using encoding 'sequential' in module 'sc_si_converter_v1_0_10_axilite_conv'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  R_IDLE |                               00 | 00000000000000000000000000000000
+                    R_RX |                               01 | 00000000000000000000000000000001
+                    R_TX |                               10 | 00000000000000000000000000000010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'r_state_reg' using encoding 'sequential' in module 'sc_si_converter_v1_0_10_axilite_conv'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 3575.875 ; gain = 876.852 ; free physical = 7682 ; free virtual = 14259
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   12 Bit       Adders := 3     
+	   2 Input   11 Bit       Adders := 4     
+	   4 Input   11 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 3     
+	   2 Input    7 Bit       Adders := 2     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 26    
+	   2 Input    2 Bit       Adders := 7     
+	   3 Input    1 Bit       Adders := 10    
+	   2 Input    1 Bit       Adders := 5     
++---XORs : 
+	   2 Input      1 Bit         XORs := 102   
++---Registers : 
+	             2178 Bit    Registers := 2     
+	              512 Bit    Registers := 1     
+	              189 Bit    Registers := 2     
+	              128 Bit    Registers := 2     
+	               76 Bit    Registers := 1     
+	               72 Bit    Registers := 1     
+	               64 Bit    Registers := 4     
+	               47 Bit    Registers := 3     
+	               44 Bit    Registers := 1     
+	               33 Bit    Registers := 3     
+	               32 Bit    Registers := 1     
+	               26 Bit    Registers := 1     
+	               16 Bit    Registers := 5     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 4     
+	                8 Bit    Registers := 3     
+	                7 Bit    Registers := 3     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 27    
+	                3 Bit    Registers := 67    
+	                2 Bit    Registers := 21    
+	                1 Bit    Registers := 323   
++---Muxes : 
+	   2 Input 2178 Bit        Muxes := 2     
+	   2 Input  169 Bit        Muxes := 8     
+	   2 Input  128 Bit        Muxes := 4     
+	   4 Input  128 Bit        Muxes := 1     
+	   3 Input  128 Bit        Muxes := 2     
+	   2 Input   56 Bit        Muxes := 4     
+	   2 Input   53 Bit        Muxes := 1     
+	   4 Input   53 Bit        Muxes := 1     
+	   3 Input   44 Bit        Muxes := 1     
+	   2 Input   44 Bit        Muxes := 1     
+	   5 Input   32 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 2     
+	   2 Input   12 Bit        Muxes := 7     
+	   5 Input   12 Bit        Muxes := 1     
+	   5 Input   11 Bit        Muxes := 1     
+	   3 Input   11 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 6     
+	   2 Input    8 Bit        Muxes := 1     
+	   3 Input    8 Bit        Muxes := 1     
+	   3 Input    7 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 7     
+	   4 Input    7 Bit        Muxes := 3     
+	   2 Input    6 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 2     
+	   5 Input    4 Bit        Muxes := 3     
+	   2 Input    4 Bit        Muxes := 3     
+	   2 Input    3 Bit        Muxes := 14    
+	   4 Input    3 Bit        Muxes := 2     
+	   5 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 43    
+	   4 Input    2 Bit        Muxes := 2     
+	   3 Input    2 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 144   
+	   3 Input    1 Bit        Muxes := 27    
+	   5 Input    1 Bit        Muxes := 27    
+	   4 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 3936 (col length:164)
+BRAMs: 1934 (col length: RAMB18 168 RAMB36 84)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to) is unused and will be removed from module bd_afc3.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2) is unused and will be removed from module bd_afc3.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3) is unused and will be removed from module bd_afc3.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module bd_afc3.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module bd_afc3.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module bd_afc3.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module bd_afc3.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module bd_afc3.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/FDRE_inst) is unused and will be removed from module bd_afc3.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/BSR_OUT_DFF[0].FDRE_BSR) is unused and will be removed from module bd_afc3.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/PR_OUT_DFF[0].FDRE_PER) is unused and will be removed from module bd_afc3.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N) is unused and will be removed from module bd_afc3.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 3575.875 ; gain = 876.852 ; free physical = 6982 ; free virtual = 13585
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:13 ; elapsed = 00:01:19 . Memory (MB): peak = 3934.867 ; gain = 1235.844 ; free physical = 6283 ; free virtual = 12889
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:15 ; elapsed = 00:01:20 . Memory (MB): peak = 3975.922 ; gain = 1276.898 ; free physical = 6898 ; free virtual = 13505
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__12`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__12' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_exit_v1_0_13_top__xdcDup__1`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_exit_v1_0_13_top__xdcDup__1' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__13`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__13' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__14`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__14' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__xdcDup__1`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__xdcDup__1' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__15`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__15' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__16`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__16' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized0__xdcDup__1`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized0__xdcDup__1' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__17`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__17' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__18`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__18' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized1__xdcDup__1`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized1__xdcDup__1' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__19`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__19' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__20`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__20' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized2__xdcDup__1`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized2__xdcDup__1' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__21`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__21' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__22`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__22' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized3__xdcDup__1`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized3__xdcDup__1' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_sc2axi_v1_0_8_top__1`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_sc2axi_v1_0_8_top__1' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__23`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__23' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_exit_v1_0_13_top`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_exit_v1_0_13_top' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__24`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__24' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__25`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__25' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__xdcDup__2`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__xdcDup__2' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__26`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__26' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__27`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__27' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized0__xdcDup__2`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized0__xdcDup__2' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__28`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__28' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__29`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__29' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized1__xdcDup__2`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized1__xdcDup__2' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__30`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__30' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__31`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__31' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized2__xdcDup__2`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized2__xdcDup__2' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__32`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__32' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__33`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__33' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized3__xdcDup__2`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized3__xdcDup__2' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_sc2axi_v1_0_8_top`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_sc2axi_v1_0_8_top' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__34`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__34' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_exit_v1_0_13_top__parameterized0`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_exit_v1_0_13_top__parameterized0' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__35`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__35' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__36`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__36' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__37`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__37' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__38`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__38' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized0`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized0' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__39`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__39' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__40`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__40' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized1`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized1' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__41`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__41' done
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__42`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `xpm_cdc_async_rst__42' done
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized2`
+   Worst Slack before retiming is 1349 and worst slack after retiming is 1349
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `sc_node_v1_0_14_top__parameterized2' done
+
+
+INFO: [Common 17-14] Message 'Synth 8-5816' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (gen_axilite_conv.axilite_conv_inst/w_size_mask_reg[1]_bret__0) is unused and will be removed from module sc_si_converter_v1_0_10_top.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:16 ; elapsed = 00:01:23 . Memory (MB): peak = 3976.930 ; gain = 1277.906 ; free physical = 8589 ; free virtual = 15196
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:20 ; elapsed = 00:01:27 . Memory (MB): peak = 3983.867 ; gain = 1284.844 ; free physical = 8612 ; free virtual = 15220
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:20 ; elapsed = 00:01:27 . Memory (MB): peak = 3983.867 ; gain = 1284.844 ; free physical = 8612 ; free virtual = 15220
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:20 ; elapsed = 00:01:27 . Memory (MB): peak = 3983.867 ; gain = 1284.844 ; free physical = 8612 ; free virtual = 15219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:20 ; elapsed = 00:01:27 . Memory (MB): peak = 3983.867 ; gain = 1284.844 ; free physical = 8612 ; free virtual = 15219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:20 ; elapsed = 00:01:27 . Memory (MB): peak = 3983.867 ; gain = 1284.844 ; free physical = 8612 ; free virtual = 15219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:20 ; elapsed = 00:01:27 . Memory (MB): peak = 3983.867 ; gain = 1284.844 ; free physical = 8612 ; free virtual = 15219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Retiming Report:
++--------------------+---+
+|Retiming summary:   |   | 
++--------------------+---+
+|Forward Retiming    | 0 | 
+|Backward Retiming   | 3 | 
+|New registers added | 5 | 
+|Registers deleted   | 3 | 
++--------------------+---+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |   161|
+|2     |LUT2  |   154|
+|3     |LUT3  |   296|
+|4     |LUT4  |   147|
+|5     |LUT5  |   143|
+|6     |LUT6  |   189|
+|8     |SRL16 |     1|
+|9     |FDCE  |   168|
+|10    |FDR   |     4|
+|11    |FDRE  |   687|
+|12    |FDSE  |    42|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:20 ; elapsed = 00:01:27 . Memory (MB): peak = 3983.867 ; gain = 1284.844 ; free physical = 8612 ; free virtual = 15219
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 24063 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:04 ; elapsed = 00:01:11 . Memory (MB): peak = 3983.867 ; gain = 835.414 ; free physical = 8678 ; free virtual = 15285
+Synthesis Optimization Complete : Time (s): cpu = 00:01:20 ; elapsed = 00:01:27 . Memory (MB): peak = 3983.875 ; gain = 1284.844 ; free physical = 8678 ; free virtual = 15285
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.15 . Memory (MB): peak = 3983.875 ; gain = 0.000 ; free physical = 8779 ; free virtual = 15386
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Constraints 18-6359] No Clock Expansion Window constraints config file entry for device xcvc1902.  GCLK Deskew mode will be Off and cannot be enabled via GCLK_DESKEW override.
+INFO: [Constraints 18-5720] The default GCLK Deskew mode is Off.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4064.570 ; gain = 0.000 ; free physical = 8658 ; free virtual = 15266
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  FDR => FDRE: 4 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 1 instance 
+  SRL16 => SRL16E: 1 instance 
+
+Synth Design complete, checksum: cb23b69e
+INFO: [Common 17-83] Releasing license: Synthesis
+281 Infos, 123 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:33 ; elapsed = 00:01:36 . Memory (MB): peak = 4064.570 ; gain = 1373.551 ; free physical = 8769 ; free virtual = 15376
+INFO: [Common 17-1381] The checkpoint '/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.runs/design_1_axi_smc_0_synth_1/design_1_axi_smc_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_smc_0, cache-ID = fc2c1fb8dd849158
+INFO: [Coretcl 2-1174] Renamed 228 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/project_3.1/project_3.1.runs/design_1_axi_smc_0_synth_1/design_1_axi_smc_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_axi_smc_0_utilization_synth.rpt -pb design_1_axi_smc_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 12 20:19:26 2025...

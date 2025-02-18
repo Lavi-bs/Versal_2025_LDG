@@ -1,0 +1,25 @@
+21:09:21 **** Build of configuration Debug for project free_gpio_test ****
+make all 
+Building file: /home/dewsjoe/Downloads/freertos_gpio_test.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_gpio_test.o" -mcpu=cortex-r5  -mfloat-abi=hard  -mfpu=vfpv3-d16 -I/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/wspace_ldg_3/vck190_platform_3/export/vck190_platform_3/sw/vck190_platform_3/freertos_gpio_test_system/bspinclude/include -MMD -MP -MF"src/freertos_gpio_test.d" -MT"src/freertos_gpio_test.o" -o "src/freertos_gpio_test.o" "/home/dewsjoe/Downloads/freertos_gpio_test.c"
+/home/dewsjoe/Downloads/freertos_gpio_test.c: In function 'main':
+/home/dewsjoe/Downloads/freertos_gpio_test.c:45:13: warning: unused variable 'Status' [-Wunused-variable]
+   45 |         int Status = 0;
+      |             ^~~~~~
+Finished building: /home/dewsjoe/Downloads/freertos_gpio_test.c
+ 
+Building target: free_gpio_test.elf
+Invoking: ARM R5 gcc linker
+armr5-none-eabi-gcc -mcpu=cortex-r5  -mfloat-abi=hard  -mfpu=vfpv3-d16 -Wl,-T -Wl,../src/lscript.ld -L/home/dewsjoe/Desktop/projects_2022.1/projects_ldg/wspace_ldg_3/vck190_platform_3/export/vck190_platform_3/sw/vck190_platform_3/freertos_gpio_test_system/bsplib/lib -o "free_gpio_test.elf" ./src/freertos_gpio_test.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+Finished building target: free_gpio_test.elf
+ 
+Invoking: ARM R5 Print Size
+armr5-none-eabi-size free_gpio_test.elf  |tee "free_gpio_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71569	   4528	  88740	 164837	  283e5	free_gpio_test.elf
+Finished building: free_gpio_test.elf.size
+ 
+
+21:09:21 Build Finished (took 682ms)
+
