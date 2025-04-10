@@ -1,6 +1,0 @@
-15:49:10 **** Build of configuration Debug for project hello_world_a72_system ****
-make all 
-Generating BOOT.BIN in system project is not supported for versal devices. Use the bootgen utility to create a bootable image.
-
-15:49:10 Build Finished (took 528ms)
-

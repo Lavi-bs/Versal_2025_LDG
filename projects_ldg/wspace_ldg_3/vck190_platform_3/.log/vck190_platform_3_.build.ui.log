@@ -1,744 +1,0 @@
-2025-02-12T21:09:03.71937400255-21:09:03 **** Build of project vck190_platform_3 ****
-000-buildplatform.sh 35691 vck190_platform_3  
-000-XSDB Server Channel: tcfchan#1
-000-Building the BSP Library for domain  - freertos10_xilinx_domain on processor versal_cips_0_pspmc_0_psv_cortexr5_0
-000-make --no-print-directory seq_libs
-000-
-000-Finished building libraries sequentially.
-000-
-000-make -j 10 --no-print-directory par_libs
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/canfd_v2_6/src
-000-
-000-make -C psv_cortexr5_0/libsrc/canfd_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-e
-000-abi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra 
-000--mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/cframe_v1_3/src
-000-
-000-make -C psv_cortexr5_0/libsrc/cframe_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
-000-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
-000- -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/cfupmc_v1_4/src
-000-
-000-make -C psv_cortexr5_0/libsrc/cfupmc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
-000-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
-000- -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/coresightps_dcc_v1_8/src
-000-
-000-make -C psv_cortexr5_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=ar
-000-mr5-none-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wal
-000-l -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/cpu_cortexr5_v2_0/src
-000-
-000-make -C psv_cortexr5_0/libsrc/cpu_cortexr5_v2_0/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5
-000--none-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -
-000-Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/csudma_v1_11/src
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/ddrpsv_v1_4/src
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/emacps_v3_16/src
-000-
-000-make -C psv_cortexr5_0/libsrc/csudma_v1_11/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none
-000--eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextr
-000-a -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/ddrpsv_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
-000-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
-000- -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/emacps_v3_16/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none
-000--eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextr
-000-a -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/freertos10_xilinx_v1_11/src
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/gpiops_v3_9/src
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/gpio_v4_9/src
-000-
-000-make -C psv_cortexr5_0/libsrc/freertos10_xilinx_v1_11/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER
-000-=armr5-none-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -
-000-Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/iicps_v3_15/src
-000-
-000-make -C psv_cortexr5_0/libsrc/gpiops_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
-000-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
-000- -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/gpio_v4_9/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/iicps_v3_15/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
-000-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
-000- -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/ipipsu_v2_11/src
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/pmonpsv_v2_1/src
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/qspipsu_v1_15/src
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/rtcpsu_v1_11/src
-000-
-000-make -C psv_cortexr5_0/libsrc/ipipsu_v2_11/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none
-000--eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextr
-000-a -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/scugic_v4_7/src
-000-
-000-make -C psv_cortexr5_0/libsrc/pmonpsv_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none
-000--eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextr
-000-a -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/qspipsu_v1_15/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-non
-000-e-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wext
-000-ra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/rtcpsu_v1_11/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none
-000--eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextr
-000-a -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/scugic_v4_7/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
-000-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
-000- -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/sdps_v3_14/src
-000-
-000-make -C psv_cortexr5_0/libsrc/sdps_v3_14/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-e
-000-abi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra 
-000--mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/sysmonpsv_v3_0/src
-000-
-000-make -C psv_cortexr5_0/libsrc/sysmonpsv_v3_0/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-no
-000-ne-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wex
-000-tra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/trngpsv_v1_1/src
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/ttcps_v3_15/src
-000-
-000-make -C psv_cortexr5_0/libsrc/trngpsv_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none
-000--eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextr
-000-a -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/ttcps_v3_15/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
-000-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
-000- -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/uartlite_v3_7/src
-000-
-000-make -C psv_cortexr5_0/libsrc/uartlite_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-non
-000-e-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wext
-000-ra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/uartpsv_v1_6/src
-000-
-000-make -C psv_cortexr5_0/libsrc/uartpsv_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none
-000--eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextr
-000-a -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/usbpsu_v1_11/src
-000-
-000-make -C psv_cortexr5_0/libsrc/usbpsu_v1_11/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none
-000--eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextr
-000-a -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/zdma_v1_14/src
-000-
-000-make -C psv_cortexr5_0/libsrc/zdma_v1_14/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-e
-000-abi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra 
-000--mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-includes
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/cframe_v1_3/src
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/canfd_v2_6/src
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/cfupmc_v1_4/src
-000-
-000-make -C psv_cortexr5_0/libsrc/cframe_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
-000-i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
-000-float-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/canfd_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
-000--as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
-000-loat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/coresightps_dcc_v1_8/src
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/cpu_cortexr5_v2_0/src
-000-
-000-make -C psv_cortexr5_0/libsrc/cfupmc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
-000-i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
-000-float-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/csudma_v1_11/src
-000-
-000-make -C psv_cortexr5_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5
-000--none-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -
-000-Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/ddrpsv_v1_4/src
-000-
-000-make -C psv_cortexr5_0/libsrc/cpu_cortexr5_v2_0/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-no
-000-ne-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wex
-000-tra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/csudma_v1_11/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/ddrpsv_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
-000-i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
-000-float-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/emacps_v3_16/src
-000-
-000-make -C psv_cortexr5_0/libsrc/emacps_v3_16/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/freertos10_xilinx_v1_11/src
-000-
-000-make -C psv_cortexr5_0/libsrc/freertos10_xilinx_v1_11/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=ar
-000-mr5-none-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wal
-000-l -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/gpiops_v3_9/src
-000-
-000-make -C psv_cortexr5_0/libsrc/gpiops_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
-000-i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
-000-float-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/gpio_v4_9/src
-000-
-000-make -C psv_cortexr5_0/libsrc/gpio_v4_9/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-
-000-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfl
-000-oat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/iicps_v3_15/src
-000-
-000-make -C psv_cortexr5_0/libsrc/iicps_v3_15/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
-000-i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
-000-float-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/ipipsu_v2_11/src
-000-
-000-make -C psv_cortexr5_0/libsrc/ipipsu_v2_11/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/pmonpsv_v2_1/src
-000-
-000-make -C psv_cortexr5_0/libsrc/pmonpsv_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/qspipsu_v1_15/src
-000-
-000-make -C psv_cortexr5_0/libsrc/qspipsu_v1_15/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-e
-000-abi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra 
-000--mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/rtcpsu_v1_11/src
-000-
-000-make -C psv_cortexr5_0/libsrc/rtcpsu_v1_11/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/scugic_v4_7/src
-000-
-000-make -C psv_cortexr5_0/libsrc/scugic_v4_7/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
-000-i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
-000-float-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/sdps_v3_14/src
-000-
-000-make -C psv_cortexr5_0/libsrc/sdps_v3_14/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
-000--as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
-000-loat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/sysmonpsv_v3_0/src
-000-
-000-make -C psv_cortexr5_0/libsrc/sysmonpsv_v3_0/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
-000-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
-000- -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Compiling xsysmonpsv
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/trngpsv_v1_1/src
-000-
-000-make -C psv_cortexr5_0/libsrc/trngpsv_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/ttcps_v3_15/src
-000-
-000-make -C psv_cortexr5_0/libsrc/ttcps_v3_15/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
-000-i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
-000-float-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/uartlite_v3_7/src
-000-
-000-make -C psv_cortexr5_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-e
-000-abi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra 
-000--mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/uartpsv_v1_6/src
-000-
-000-make -C psv_cortexr5_0/libsrc/uartpsv_v1_6/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/usbpsu_v1_11/src
-000-
-000-make -C psv_cortexr5_0/libsrc/usbpsu_v1_11/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-/media/dewsjoe/Data/Vitis_2022_1/Vitis/2022.1/gnu/armr5/lin/gcc-arm-none-eabi/bin/../x86_64-oesdk-linux/usr/bin/arm-xilinx-eabi/arm-xilinx-eabi-ar.real: creating ../../../lib/libfreertos.a
-000-Running Make libs in psv_cortexr5_0/libsrc/zdma_v1_14/src
-000-
-000-make -C psv_cortexr5_0/libsrc/zdma_v1_14/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
-000--as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
-000-loat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000/vck190_platform_364-1-1'#pragma message: For the sleep routines, CortexR5 PMU cycle counter is used'0-xtime_l.c:64:9: note: '#pragma message: For the sleep routines, CortexR5 PMU cycle counter is used'
-000-   64 | #pragma message ("For the sleep routines, CortexR5 PMU cycle counter is used")
-000-      |         ^~~~~~~
-000-Finished building libraries parallelly.
-000-
-000-make --no-print-directory archive
-000-
-000-armr5-none-eabi-ar -r  psv_cortexr5_0/lib/libxil.a psv_cortexr5_0/lib/abort.o psv_cortexr5_0/lib/boot.o psv_cortexr5_0/lib/clos
-000-e.o psv_cortexr5_0/lib/CompactAES.o psv_cortexr5_0/lib/cpputest_time.o psv_cortexr5_0/lib/cpu_init.o psv_cortexr5_0/lib/errno.o
-000- psv_cortexr5_0/lib/_exit.o psv_cortexr5_0/lib/fcntl.o psv_cortexr5_0/lib/fstat.o psv_cortexr5_0/lib/getpid.o psv_cortexr5_0/li
-000-b/inbyte.o psv_cortexr5_0/lib/isatty.o psv_cortexr5_0/lib/kill.o psv_cortexr5_0/lib/lseek.o psv_cortexr5_0/lib/mpu.o psv_cortex
-000-r5_0/lib/_open.o psv_cortexr5_0/lib/open.o psv_cortexr5_0/lib/outbyte.o psv_cortexr5_0/lib/print.o psv_cortexr5_0/lib/putnum.o 
-000-psv_cortexr5_0/lib/read.o psv_cortexr5_0/lib/_sbrk.o psv_cortexr5_0/lib/sbrk.o psv_cortexr5_0/lib/sleep.o psv_cortexr5_0/lib/ti
-000-me.o psv_cortexr5_0/lib/unlink.o psv_cortexr5_0/lib/usleep.o psv_cortexr5_0/lib/vectors.o psv_cortexr5_0/lib/write.o psv_cortex
-000-r5_0/lib/xcanfd_config.o psv_cortexr5_0/lib/xcanfd_g.o psv_cortexr5_0/lib/xcanfd_intr.o psv_cortexr5_0/lib/xcanfd.o psv_cortexr
-000-5_0/lib/xcanfd_selftest.o psv_cortexr5_0/lib/xcanfd_sinit.o psv_cortexr5_0/lib/xcframe_g.o psv_cortexr5_0/lib/xcframe.o psv_cor
-000-texr5_0/lib/xcframe_selftest.o psv_cortexr5_0/lib/xcframe_sinit.o psv_cortexr5_0/lib/xcfupmc_g.o psv_cortexr5_0/lib/xcfupmc.o p
-000-sv_cortexr5_0/lib/xcfupmc_selftest.o psv_cortexr5_0/lib/xcfupmc_sinit.o psv_cortexr5_0/lib/xcoresightpsdcc.o psv_cortexr5_0/lib
-000-/xcsudma_g.o psv_cortexr5_0/lib/xcsudma_intr.o psv_cortexr5_0/lib/xcsudma.o psv_cortexr5_0/lib/xcsudma_selftest.o psv_cortexr5_
-000-0/lib/xcsudma_sinit.o psv_cortexr5_0/lib/xemacps_bdring.o psv_cortexr5_0/lib/xemacps_control.o psv_cortexr5_0/lib/xemacps_g.o p
-000-sv_cortexr5_0/lib/xemacps_hw.o psv_cortexr5_0/lib/xemacps_intr.o psv_cortexr5_0/lib/xemacps.o psv_cortexr5_0/lib/xemacps_sinit.
-000-o psv_cortexr5_0/lib/xgpio_extra.o psv_cortexr5_0/lib/xgpio_g.o psv_cortexr5_0/lib/xgpio_intr.o psv_cortexr5_0/lib/xgpio.o psv_
-000-cortexr5_0/lib/xgpiops_g.o psv_cortexr5_0/lib/xgpiops_hw.o psv_cortexr5_0/lib/xgpiops_intr.o psv_cortexr5_0/lib/xgpiops.o psv_c
-000-ortexr5_0/lib/xgpiops_selftest.o psv_cortexr5_0/lib/xgpiops_sinit.o psv_cortexr5_0/lib/xgpio_selftest.o psv_cortexr5_0/lib/xgpi
-000-o_sinit.o psv_cortexr5_0/lib/xiicps_g.o psv_cortexr5_0/lib/xiicps_hw.o psv_cortexr5_0/lib/xiicps_intr.o psv_cortexr5_0/lib/xiic
-000-ps_master.o psv_cortexr5_0/lib/xiicps.o psv_cortexr5_0/lib/xiicps_options.o psv_cortexr5_0/lib/xiicps_selftest.o psv_cortexr5_0
-000-/lib/xiicps_sinit.o psv_cortexr5_0/lib/xiicps_slave.o psv_cortexr5_0/lib/xiicps_xfer.o psv_cortexr5_0/lib/xil_assert.o psv_cort
-000-exr5_0/lib/xil_cache.o psv_cortexr5_0/lib/xil_clocking.o psv_cortexr5_0/lib/xil-crt0.o psv_cortexr5_0/lib/xil_exception.o psv_c
-000-ortexr5_0/lib/xil_mem.o psv_cortexr5_0/lib/xil_mpu.o psv_cortexr5_0/lib/xil_printf.o psv_cortexr5_0/lib/xil_sleepcommon.o psv_c
-000-ortexr5_0/lib/xil_sleeptimer.o psv_cortexr5_0/lib/xil_spinlock.o psv_cortexr5_0/lib/xil_testcache.o psv_cortexr5_0/lib/xil_test
-000-io.o psv_cortexr5_0/lib/xil_testmem.o psv_cortexr5_0/lib/xil_util.o psv_cortexr5_0/lib/xinterrupt_wrap.o psv_cortexr5_0/lib/xip
-000-ipsu_buf.o psv_cortexr5_0/lib/xipipsu_g.o psv_cortexr5_0/lib/xipipsu.o psv_cortexr5_0/lib/xipipsu_sinit.o psv_cortexr5_0/lib/xp
-000-latform_info.o psv_cortexr5_0/lib/xpm_counter.o psv_cortexr5_0/lib/xpmonpsv_g.o psv_cortexr5_0/lib/xpmonpsv.o psv_cortexr5_0/li
-000-b/xpmonpsv_sint.o psv_cortexr5_0/lib/xqspipsu_control.o psv_cortexr5_0/lib/xqspipsu_g.o psv_cortexr5_0/lib/xqspipsu_hw.o psv_co
-000-rtexr5_0/lib/xqspipsu.o psv_cortexr5_0/lib/xqspipsu_options.o psv_cortexr5_0/lib/xqspipsu_sinit.o psv_cortexr5_0/lib/xrtcpsu_g.
-000-o psv_cortexr5_0/lib/xrtcpsu_intr.o psv_cortexr5_0/lib/xrtcpsu.o psv_cortexr5_0/lib/xrtcpsu_selftest.o psv_cortexr5_0/lib/xrtcp
-000-su_sinit.o psv_cortexr5_0/lib/xscugic_g.o psv_cortexr5_0/lib/xscugic_hw.o psv_cortexr5_0/lib/xscugic_intr.o psv_cortexr5_0/lib/
-000-xscugic.o psv_cortexr5_0/lib/xscugic_selftest.o psv_cortexr5_0/lib/xscugic_sinit.o psv_cortexr5_0/lib/xsdps_card.o psv_cortexr5
-000-_0/lib/xsdps_g.o psv_cortexr5_0/lib/xsdps_host.o psv_cortexr5_0/lib/xsdps.o psv_cortexr5_0/lib/xsdps_options.o psv_cortexr5_0/l
-000-ib/xsdps_sinit.o psv_cortexr5_0/lib/xsysmonpsv_common.o psv_cortexr5_0/lib/xsysmonpsv_direct.o psv_cortexr5_0/lib/xsysmonpsv_g.
-000-o psv_cortexr5_0/lib/xsysmonpsv_intr.o psv_cortexr5_0/lib/xsysmonpsv.o psv_cortexr5_0/lib/xsysmonpsv_services.o psv_cortexr5_0/
-000-lib/xsysmonpsv_sinit.o psv_cortexr5_0/lib/xtime_l.o psv_cortexr5_0/lib/xtrngpsv_df.o psv_cortexr5_0/lib/xtrngpsv_g.o psv_cortex
-000-r5_0/lib/xtrngpsv.o psv_cortexr5_0/lib/xtrngpsv_sinit.o psv_cortexr5_0/lib/xtrngpsv_tests.o psv_cortexr5_0/lib/xttcps_g.o psv_c
-000-ortexr5_0/lib/xttcps.o psv_cortexr5_0/lib/xttcps_options.o psv_cortexr5_0/lib/xttcps_selftest.o psv_cortexr5_0/lib/xttcps_sinit
-000-.o psv_cortexr5_0/lib/xuartlite_g.o psv_cortexr5_0/lib/xuartlite_intr.o psv_cortexr5_0/lib/xuartlite_l.o psv_cortexr5_0/lib/xua
-000-rtlite.o psv_cortexr5_0/lib/xuartlite_selftest.o psv_cortexr5_0/lib/xuartlite_sinit.o psv_cortexr5_0/lib/xuartlite_stats.o psv_
-000-cortexr5_0/lib/xuartpsv_g.o psv_cortexr5_0/lib/xuartpsv_hw.o psv_cortexr5_0/lib/xuartpsv_intr.o psv_cortexr5_0/lib/xuartpsv.o p
-000-sv_cortexr5_0/lib/xuartpsv_options.o psv_cortexr5_0/lib/xuartpsv_selftest.o psv_cortexr5_0/lib/xuartpsv_sinit.o psv_cortexr5_0/
-000-lib/xusbpsu_command.o psv_cortexr5_0/lib/xusbpsu_controltransfers.o psv_cortexr5_0/lib/xusbpsu_device.o psv_cortexr5_0/lib/xusb
-000-psu_endpoint.o psv_cortexr5_0/lib/xusbpsu_ep0handler.o psv_cortexr5_0/lib/xusbpsu_ephandler.o psv_cortexr5_0/lib/xusbpsu_event.
-000-o psv_cortexr5_0/lib/xusbpsu_g.o psv_cortexr5_0/lib/xusbpsu_hibernation.o psv_cortexr5_0/lib/xusbpsu_intr.o psv_cortexr5_0/lib/
-000-xusbpsu.o psv_cortexr5_0/lib/xusbpsu_sinit.o psv_cortexr5_0/lib/xzdma_g.o psv_cortexr5_0/lib/xzdma_intr.o psv_cortexr5_0/lib/xz
-000-dma.o psv_cortexr5_0/lib/xzdma_selftest.o psv_cortexr5_0/lib/xzdma_sinit.o
-000-
-000-/media/dewsjoe/Data/Vitis_2022_1/Vitis/2022.1/gnu/armr5/lin/gcc-arm-none-eabi/bin/../x86_64-oesdk-linux/usr/bin/arm-xilinx-eabi/arm-xilinx-eabi-ar.real: creating psv_cortexr5_0/lib/libxil.a
-000-Finished building libraries
-000-
-000-Building the BSP Library for domain  - freertos_gpio_test_system on processor versal_cips_0_pspmc_0_psv_cortexr5_0
-000-make --no-print-directory seq_libs
-000-
-000-Finished building libraries sequentially.
-000-
-000-make -j 10 --no-print-directory par_libs
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/canfd_v2_6/src
-000-
-000-make -C psv_cortexr5_0/libsrc/canfd_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-e
-000-abi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra 
-000--mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/cframe_v1_3/src
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/cpu_cortexr5_v2_0/src
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/cfupmc_v1_4/src
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/coresightps_dcc_v1_8/src
-000-
-000-make -C psv_cortexr5_0/libsrc/cframe_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
-000-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
-000- -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/cfupmc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
-000-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
-000- -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=ar
-000-mr5-none-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wal
-000-l -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/csudma_v1_11/src
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/emacps_v3_16/src
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/freertos10_xilinx_v1_11/src
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/ddrpsv_v1_4/src
-000-
-000-make -C psv_cortexr5_0/libsrc/cpu_cortexr5_v2_0/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5
-000--none-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -
-000-Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/csudma_v1_11/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none
-000--eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextr
-000-a -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/ddrpsv_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
-000-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
-000- -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/emacps_v3_16/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none
-000--eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextr
-000-a -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/freertos10_xilinx_v1_11/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER
-000-=armr5-none-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -
-000-Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/gpiops_v3_9/src
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/gpio_v4_9/src
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/iicps_v3_15/src
-000-
-000-make -C psv_cortexr5_0/libsrc/gpiops_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
-000-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
-000- -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/gpio_v4_9/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/iicps_v3_15/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
-000-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
-000- -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/ipipsu_v2_11/src
-000-
-000-make -C psv_cortexr5_0/libsrc/ipipsu_v2_11/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none
-000--eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextr
-000-a -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/pmonpsv_v2_1/src
-000-
-000-make -C psv_cortexr5_0/libsrc/pmonpsv_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none
-000--eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextr
-000-a -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/qspipsu_v1_15/src
-000-
-000-make -C psv_cortexr5_0/libsrc/qspipsu_v1_15/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-non
-000-e-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wext
-000-ra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/rtcpsu_v1_11/src
-000-
-000-make -C psv_cortexr5_0/libsrc/rtcpsu_v1_11/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none
-000--eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextr
-000-a -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/scugic_v4_7/src
-000-
-000-make -C psv_cortexr5_0/libsrc/scugic_v4_7/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
-000-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
-000- -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/sdps_v3_14/src
-000-
-000-make -C psv_cortexr5_0/libsrc/sdps_v3_14/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-e
-000-abi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra 
-000--mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/sysmonpsv_v3_0/src
-000-
-000-make -C psv_cortexr5_0/libsrc/sysmonpsv_v3_0/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-no
-000-ne-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wex
-000-tra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/trngpsv_v1_1/src
-000-
-000-make -C psv_cortexr5_0/libsrc/trngpsv_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none
-000--eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextr
-000-a -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/ttcps_v3_15/src
-000-
-000-make -C psv_cortexr5_0/libsrc/ttcps_v3_15/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
-000-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
-000- -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/uartlite_v3_7/src
-000-
-000-make -C psv_cortexr5_0/libsrc/uartlite_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-non
-000-e-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wext
-000-ra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/uartpsv_v1_6/src
-000-
-000-includes
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/usbpsu_v1_11/src
-000-
-000-make -C psv_cortexr5_0/libsrc/uartpsv_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none
-000--eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextr
-000-a -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make include in psv_cortexr5_0/libsrc/zdma_v1_14/src
-000-
-000-make -C psv_cortexr5_0/libsrc/usbpsu_v1_11/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none
-000--eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextr
-000-a -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/zdma_v1_14/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-e
-000-abi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra 
-000--mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/canfd_v2_6/src
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/cfupmc_v1_4/src
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/cframe_v1_3/src
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/coresightps_dcc_v1_8/src
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/cpu_cortexr5_v2_0/src
-000-
-000-make -C psv_cortexr5_0/libsrc/canfd_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
-000--as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
-000-loat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/cframe_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
-000-i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
-000-float-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/cfupmc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
-000-i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
-000-float-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5
-000--none-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -
-000-Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/cpu_cortexr5_v2_0/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-no
-000-ne-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wex
-000-tra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/csudma_v1_11/src
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/ddrpsv_v1_4/src
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/emacps_v3_16/src
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/freertos10_xilinx_v1_11/src
-000-
-000-make -C psv_cortexr5_0/libsrc/csudma_v1_11/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/ddrpsv_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
-000-i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
-000-float-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/emacps_v3_16/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-make -C psv_cortexr5_0/libsrc/freertos10_xilinx_v1_11/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=ar
-000-mr5-none-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wal
-000-l -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/gpiops_v3_9/src
-000-
-000-make -C psv_cortexr5_0/libsrc/gpiops_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
-000-i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
-000-float-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/gpio_v4_9/src
-000-
-000-make -C psv_cortexr5_0/libsrc/gpio_v4_9/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-
-000-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfl
-000-oat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/iicps_v3_15/src
-000-
-000-make -C psv_cortexr5_0/libsrc/iicps_v3_15/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
-000-i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
-000-float-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/ipipsu_v2_11/src
-000-
-000-make -C psv_cortexr5_0/libsrc/ipipsu_v2_11/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/pmonpsv_v2_1/src
-000-
-000-make -C psv_cortexr5_0/libsrc/pmonpsv_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/qspipsu_v1_15/src
-000-
-000-make -C psv_cortexr5_0/libsrc/qspipsu_v1_15/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-e
-000-abi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra 
-000--mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/rtcpsu_v1_11/src
-000-
-000-make -C psv_cortexr5_0/libsrc/rtcpsu_v1_11/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/scugic_v4_7/src
-000-
-000-make -C psv_cortexr5_0/libsrc/scugic_v4_7/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
-000-i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
-000-float-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/sdps_v3_14/src
-000-
-000-make -C psv_cortexr5_0/libsrc/sdps_v3_14/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
-000--as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
-000-loat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/sysmonpsv_v3_0/src
-000-
-000-make -C psv_cortexr5_0/libsrc/sysmonpsv_v3_0/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
-000-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
-000- -mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Compiling xsysmonpsv
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/trngpsv_v1_1/src
-000-
-000-make -C psv_cortexr5_0/libsrc/trngpsv_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/ttcps_v3_15/src
-000-
-000-make -C psv_cortexr5_0/libsrc/ttcps_v3_15/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
-000-i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
-000-float-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/uartlite_v3_7/src
-000-
-000-make -C psv_cortexr5_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-e
-000-abi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra 
-000--mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/uartpsv_v1_6/src
-000-
-000-make -C psv_cortexr5_0/libsrc/uartpsv_v1_6/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/usbpsu_v1_11/src
-000-
-000-make -C psv_cortexr5_0/libsrc/usbpsu_v1_11/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
-000-bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
-000-mfloat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-Running Make libs in psv_cortexr5_0/libsrc/zdma_v1_14/src
-000-
-000-make -C psv_cortexr5_0/libsrc/zdma_v1_14/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
-000--as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
-000-loat-abi=hard -mfpu=vfpv3-d16 -fno-tree-loop-distribute-patterns -Dversal"
-000-
-000-/media/dewsjoe/Data/Vitis_2022_1/Vitis/2022.1/gnu/armr5/lin/gcc-arm-none-eabi/bin/../x86_64-oesdk-linux/usr/bin/arm-xilinx-eabi/arm-xilinx-eabi-ar.real: creating ../../../lib/libfreertos.a
-000/vck190_platform_364-1-1'#pragma message: For the sleep routines, CortexR5 PMU cycle counter is used'0-xtime_l.c:64:9: note: '#pragma message: For the sleep routines, CortexR5 PMU cycle counter is used'
-000-   64 | #pragma message ("For the sleep routines, CortexR5 PMU cycle counter is used")
-000-      |         ^~~~~~~
-000-Finished building libraries parallelly.
-000-
-000-make --no-print-directory archive
-000-
-000-armr5-none-eabi-ar -r  psv_cortexr5_0/lib/libxil.a psv_cortexr5_0/lib/abort.o psv_cortexr5_0/lib/boot.o psv_cortexr5_0/lib/clos
-000-e.o psv_cortexr5_0/lib/CompactAES.o psv_cortexr5_0/lib/cpputest_time.o psv_cortexr5_0/lib/cpu_init.o psv_cortexr5_0/lib/errno.o
-000- psv_cortexr5_0/lib/_exit.o psv_cortexr5_0/lib/fcntl.o psv_cortexr5_0/lib/fstat.o psv_cortexr5_0/lib/getpid.o psv_cortexr5_0/li
-000-b/inbyte.o psv_cortexr5_0/lib/isatty.o psv_cortexr5_0/lib/kill.o psv_cortexr5_0/lib/lseek.o psv_cortexr5_0/lib/mpu.o psv_cortex
-000-r5_0/lib/_open.o psv_cortexr5_0/lib/open.o psv_cortexr5_0/lib/outbyte.o psv_cortexr5_0/lib/print.o psv_cortexr5_0/lib/putnum.o 
-000-psv_cortexr5_0/lib/read.o psv_cortexr5_0/lib/_sbrk.o psv_cortexr5_0/lib/sbrk.o psv_cortexr5_0/lib/sleep.o psv_cortexr5_0/lib/ti
-000-me.o psv_cortexr5_0/lib/unlink.o psv_cortexr5_0/lib/usleep.o psv_cortexr5_0/lib/vectors.o psv_cortexr5_0/lib/write.o psv_cortex
-000-r5_0/lib/xcanfd_config.o psv_cortexr5_0/lib/xcanfd_g.o psv_cortexr5_0/lib/xcanfd_intr.o psv_cortexr5_0/lib/xcanfd.o psv_cortexr
-000-5_0/lib/xcanfd_selftest.o psv_cortexr5_0/lib/xcanfd_sinit.o psv_cortexr5_0/lib/xcframe_g.o psv_cortexr5_0/lib/xcframe.o psv_cor
-000-texr5_0/lib/xcframe_selftest.o psv_cortexr5_0/lib/xcframe_sinit.o psv_cortexr5_0/lib/xcfupmc_g.o psv_cortexr5_0/lib/xcfupmc.o p
-000-sv_cortexr5_0/lib/xcfupmc_selftest.o psv_cortexr5_0/lib/xcfupmc_sinit.o psv_cortexr5_0/lib/xcoresightpsdcc.o psv_cortexr5_0/lib
-000-/xcsudma_g.o psv_cortexr5_0/lib/xcsudma_intr.o psv_cortexr5_0/lib/xcsudma.o psv_cortexr5_0/lib/xcsudma_selftest.o psv_cortexr5_
-000-0/lib/xcsudma_sinit.o psv_cortexr5_0/lib/xemacps_bdring.o psv_cortexr5_0/lib/xemacps_control.o psv_cortexr5_0/lib/xemacps_g.o p
-000-sv_cortexr5_0/lib/xemacps_hw.o psv_cortexr5_0/lib/xemacps_intr.o psv_cortexr5_0/lib/xemacps.o psv_cortexr5_0/lib/xemacps_sinit.
-000-o psv_cortexr5_0/lib/xgpio_extra.o psv_cortexr5_0/lib/xgpio_g.o psv_cortexr5_0/lib/xgpio_intr.o psv_cortexr5_0/lib/xgpio.o psv_
-000-cortexr5_0/lib/xgpiops_g.o psv_cortexr5_0/lib/xgpiops_hw.o psv_cortexr5_0/lib/xgpiops_intr.o psv_cortexr5_0/lib/xgpiops.o psv_c
-000-ortexr5_0/lib/xgpiops_selftest.o psv_cortexr5_0/lib/xgpiops_sinit.o psv_cortexr5_0/lib/xgpio_selftest.o psv_cortexr5_0/lib/xgpi
-000-o_sinit.o psv_cortexr5_0/lib/xiicps_g.o psv_cortexr5_0/lib/xiicps_hw.o psv_cortexr5_0/lib/xiicps_intr.o psv_cortexr5_0/lib/xiic
-000-ps_master.o psv_cortexr5_0/lib/xiicps.o psv_cortexr5_0/lib/xiicps_options.o psv_cortexr5_0/lib/xiicps_selftest.o psv_cortexr5_0
-000-/lib/xiicps_sinit.o psv_cortexr5_0/lib/xiicps_slave.o psv_cortexr5_0/lib/xiicps_xfer.o psv_cortexr5_0/lib/xil_assert.o psv_cort
-000-exr5_0/lib/xil_cache.o psv_cortexr5_0/lib/xil_clocking.o psv_cortexr5_0/lib/xil-crt0.o psv_cortexr5_0/lib/xil_exception.o psv_c
-000-ortexr5_0/lib/xil_mem.o psv_cortexr5_0/lib/xil_mpu.o psv_cortexr5_0/lib/xil_printf.o psv_cortexr5_0/lib/xil_sleepcommon.o psv_c
-000-ortexr5_0/lib/xil_sleeptimer.o psv_cortexr5_0/lib/xil_spinlock.o psv_cortexr5_0/lib/xil_testcache.o psv_cortexr5_0/lib/xil_test
-000-io.o psv_cortexr5_0/lib/xil_testmem.o psv_cortexr5_0/lib/xil_util.o psv_cortexr5_0/lib/xinterrupt_wrap.o psv_cortexr5_0/lib/xip
-000-ipsu_buf.o psv_cortexr5_0/lib/xipipsu_g.o psv_cortexr5_0/lib/xipipsu.o psv_cortexr5_0/lib/xipipsu_sinit.o psv_cortexr5_0/lib/xp
-000-latform_info.o psv_cortexr5_0/lib/xpm_counter.o psv_cortexr5_0/lib/xpmonpsv_g.o psv_cortexr5_0/lib/xpmonpsv.o psv_cortexr5_0/li
-000-b/xpmonpsv_sint.o psv_cortexr5_0/lib/xqspipsu_control.o psv_cortexr5_0/lib/xqspipsu_g.o psv_cortexr5_0/lib/xqspipsu_hw.o psv_co
-000-rtexr5_0/lib/xqspipsu.o psv_cortexr5_0/lib/xqspipsu_options.o psv_cortexr5_0/lib/xqspipsu_sinit.o psv_cortexr5_0/lib/xrtcpsu_g.
-000-o psv_cortexr5_0/lib/xrtcpsu_intr.o psv_cortexr5_0/lib/xrtcpsu.o psv_cortexr5_0/lib/xrtcpsu_selftest.o psv_cortexr5_0/lib/xrtcp
-000-su_sinit.o psv_cortexr5_0/lib/xscugic_g.o psv_cortexr5_0/lib/xscugic_hw.o psv_cortexr5_0/lib/xscugic_intr.o psv_cortexr5_0/lib/
-000-xscugic.o psv_cortexr5_0/lib/xscugic_selftest.o psv_cortexr5_0/lib/xscugic_sinit.o psv_cortexr5_0/lib/xsdps_card.o psv_cortexr5
-000-_0/lib/xsdps_g.o psv_cortexr5_0/lib/xsdps_host.o psv_cortexr5_0/lib/xsdps.o psv_cortexr5_0/lib/xsdps_options.o psv_cortexr5_0/l
-000-ib/xsdps_sinit.o psv_cortexr5_0/lib/xsysmonpsv_common.o psv_cortexr5_0/lib/xsysmonpsv_direct.o psv_cortexr5_0/lib/xsysmonpsv_g.
-000-o psv_cortexr5_0/lib/xsysmonpsv_intr.o psv_cortexr5_0/lib/xsysmonpsv.o psv_cortexr5_0/lib/xsysmonpsv_services.o psv_cortexr5_0/
-000-lib/xsysmonpsv_sinit.o psv_cortexr5_0/lib/xtime_l.o psv_cortexr5_0/lib/xtrngpsv_df.o psv_cortexr5_0/lib/xtrngpsv_g.o psv_cortex
-000-r5_0/lib/xtrngpsv.o psv_cortexr5_0/lib/xtrngpsv_sinit.o psv_cortexr5_0/lib/xtrngpsv_tests.o psv_cortexr5_0/lib/xttcps_g.o psv_c
-000-ortexr5_0/lib/xttcps.o psv_cortexr5_0/lib/xttcps_options.o psv_cortexr5_0/lib/xttcps_selftest.o psv_cortexr5_0/lib/xttcps_sinit
-000-.o psv_cortexr5_0/lib/xuartlite_g.o psv_cortexr5_0/lib/xuartlite_intr.o psv_cortexr5_0/lib/xuartlite_l.o psv_cortexr5_0/lib/xua
-000-rtlite.o psv_cortexr5_0/lib/xuartlite_selftest.o psv_cortexr5_0/lib/xuartlite_sinit.o psv_cortexr5_0/lib/xuartlite_stats.o psv_
-000-cortexr5_0/lib/xuartpsv_g.o psv_cortexr5_0/lib/xuartpsv_hw.o psv_cortexr5_0/lib/xuartpsv_intr.o psv_cortexr5_0/lib/xuartpsv.o p
-000-sv_cortexr5_0/lib/xuartpsv_options.o psv_cortexr5_0/lib/xuartpsv_selftest.o psv_cortexr5_0/lib/xuartpsv_sinit.o psv_cortexr5_0/
-000-lib/xusbpsu_command.o psv_cortexr5_0/lib/xusbpsu_controltransfers.o psv_cortexr5_0/lib/xusbpsu_device.o psv_cortexr5_0/lib/xusb
-000-psu_endpoint.o psv_cortexr5_0/lib/xusbpsu_ep0handler.o psv_cortexr5_0/lib/xusbpsu_ephandler.o psv_cortexr5_0/lib/xusbpsu_event.
-000-o psv_cortexr5_0/lib/xusbpsu_g.o psv_cortexr5_0/lib/xusbpsu_hibernation.o psv_cortexr5_0/lib/xusbpsu_intr.o psv_cortexr5_0/lib/
-000-xusbpsu.o psv_cortexr5_0/lib/xusbpsu_sinit.o psv_cortexr5_0/lib/xzdma_g.o psv_cortexr5_0/lib/xzdma_intr.o psv_cortexr5_0/lib/xz
-000-dma.o psv_cortexr5_0/lib/xzdma_selftest.o psv_cortexr5_0/lib/xzdma_sinit.o
-000-
-000-/media/dewsjoe/Data/Vitis_2022_1/Vitis/2022.1/gnu/armr5/lin/gcc-arm-none-eabi/bin/../x86_64-oesdk-linux/usr/bin/arm-xilinx-eabi/arm-xilinx-eabi-ar.real: creating psv_cortexr5_0/lib/libxil.a
-000-Finished building libraries
-000-
-00255-
-21:09:15 Build Finished (took 11s.599ms)
-
