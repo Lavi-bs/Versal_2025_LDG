@@ -1,9 +1,0 @@
-# Ignora cartelle di sistema
-01-Versal_Custom_Thin_Platform_Extensible_System/linux/sysroot/sysroots/cortexa72-cortexa53-xilinx-linux/etc/
-01-Versal_Custom_Thin_Platform_Extensible_System/linux/sysroot/sysroots/cortexa72-cortexa53-xilinx-linux/var/
-
-# Ignora file di log
-*.log
-
-# Ignora cartelle specifiche
-BuildVivadoComplexAD_DA/
