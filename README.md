@@ -15,11 +15,14 @@ So, when a data reception is requested through a high-level command (e.g., writt
 
 The objective here is to be able to connect the mm2s and s2mm blocks to allow the AI Engine to read inputs from memory and write outputs back to memory.
 
-**Notes:** 
-Before you start, edit the various makefiles and the system.cfg file, so that the folder paths are correct!
+
 
 
 ## Getting Started
+
+**Notes:** 
+Before you start, edit the various makefiles and the system.cfg file, so that the folder paths are correct!
+
 ### Build-flow
 The Versal VCK190/VEK280/VEK280(+es1) System Example Design full Makefile build-flow builds the whole project in the following order with this commands:
 ```
