@@ -1,0 +1,59 @@
+
+
+
+wire clk_PROT0_R0;
+wire clk_PROT0_R1;
+wire clk_PROT0_R2;
+wire clk_PROT0_R3;
+wire clk_PROT0_R4;
+wire clk_PROT0_R5;
+
+reg   clk_lr0_tx = 1'b0;
+reg   clk_lr0_rx = 1'b0;
+
+
+always #4.8825ns clk_lr0_tx =  ~clk_lr0_tx;
+ 
+always #4.8825ns clk_lr0_rx =  ~clk_lr0_rx;
+
+ 
+ 
+ 
+assign clk_PROT0_R0       =      
+                                 (rate_sel_ip0 == 4'd0) ?  clk_lr0_rx : 
+ 
+                                 (rate_sel_ip0 > 4'd0) ?  clk_lr0_rx : 
+                                   clk_lr0_rx ; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+reg  clk_refclk0 = 1'b0;
+always #4.8825ns clk_refclk0 =  ~clk_refclk0;
+
+
+

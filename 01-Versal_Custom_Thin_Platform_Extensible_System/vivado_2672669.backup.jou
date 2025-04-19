@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Mar 24 17:32:05 2025
+# Process ID: 2672669
+# Current directory: /home/dewsjoe/Desktop/prj_thin2/01-Versal_Custom_Thin_Platform_Extensible_System
+# Command line: vivado
+# Log file: /home/dewsjoe/Desktop/prj_thin2/01-Versal_Custom_Thin_Platform_Extensible_System/vivado.log
+# Journal file: /home/dewsjoe/Desktop/prj_thin2/01-Versal_Custom_Thin_Platform_Extensible_System/vivado.jou
+# Running On: dewsjoe-HP-Z440-Workstation, OS: Linux, CPU Frequency: 3591.884 MHz, CPU Physical cores: 6, Host memory: 33554 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/dewsjoe/Desktop/prj_thin2/01-Versal_Custom_Thin_Platform_Extensible_System/vivado/build/vck190_thin_vivado/vck190_thin.xpr
+update_compile_order -fileset sources_1
+open_bd_design {/home/dewsjoe/Desktop/prj_thin2/01-Versal_Custom_Thin_Platform_Extensible_System/vivado/build/vck190_thin_vivado/vck190_thin.srcs/sources_1/bd/system/system.bd}
+set_property PFM.AXI_PORT {M01_AXI {memport "M_AXI_GP" sptag "" memory "" is_range "true"}} [get_bd_cells /axi_noc_0]
+set_property PFM.AXI_PORT {} [get_bd_cells /axi_noc_0]
+set_property PFM.CLOCK {} [get_bd_cells /sys_cips]
+set_property PFM.CLOCK {pl0_ref_clk {id "4" is_default "false" proc_sys_reset "/sys_rstgen" status "fixed" freq_hz "99999901"}} [get_bd_cells /sys_cips]

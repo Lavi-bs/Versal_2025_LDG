@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Sep 20 17:40:59 2023
+# Process ID: 3132702
+# Current directory: /home/epics/adi_2022_R2_master/hdl-master/library/jesd204/jesd204_tx
+# Command line: vivado -mode batch -source jesd204_tx_ip.tcl
+# Log file: /home/epics/adi_2022_R2_master/hdl-master/library/jesd204/jesd204_tx/vivado.log
+# Journal file: /home/epics/adi_2022_R2_master/hdl-master/library/jesd204/jesd204_tx/vivado.jou
+# Running On: epics-X9DAi, OS: Linux, CPU Frequency: 1199.343 MHz, CPU Physical cores: 16, Host memory: 135129 MB
+#-----------------------------------------------------------
+source jesd204_tx_ip.tcl
