@@ -24,7 +24,7 @@ The objective here is to be able to connect the mm2s and s2mm blocks to allow th
 Before you start, edit the various makefiles and the system.cfg file, so that the folder paths are correct!
 
 ### Build-flow
-The Versal VCK190/VEK280/VEK280(+es1) System Example Design full Makefile build-flow builds the whole project in the following order with this commands:
+The Versal VCK190 System Example Design full Makefile build-flow builds the whole project in the following order with these commands:
 ```
   1. make version_check:   Checks if the Vivado, Petalinux and Vitis tools are setup and if the versions are 2023.2
   2. make vivado_platform: Building the thin platform xsa (only pre-synth) or using the pre-builds
